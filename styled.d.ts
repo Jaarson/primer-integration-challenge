@@ -1,10 +1,16 @@
-import 'styled-components'
+import 'styled-components';
 
 declare module 'styled-components' {
   export interface DefaultTheme {
     colors: {
-      primary: string
-      secondary: string
-    }
+      pure: string;
+      primary: string;
+      secondary: string;
+      surface: string;
+      popper: string;
+      inputs: string;
+      inputsActive: string;
+      placeholders: string;
+    };
   }
 }

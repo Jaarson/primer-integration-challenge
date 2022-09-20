@@ -14,7 +14,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       method: 'post',
       headers: {
         'Content-Type': 'application/json',
-        'X-Api-Version': '2.1',
+        'X-Api-Version': '2.2',
         'X-Api-Key': process.env.API_KEY,
       },
       body: JSON.stringify({
